@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <resources>
+        <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+            <item name="android:popupBackground">@drawable/bg_popup_menu</item>
+        </style>
+    </resources>
+</menu>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/left_hei"
+            android:id="@+id/muns4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginLeft="500dp"
+            android:text="购物车"
+            android:textSize="40dp"/>
+        <TextView
+            android:id="@+id/guanli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginLeft="400dp"
+            android:textStyle="bold"
+            android:text="管理"
+            android:textSize="40dp"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="使用日期"
+            android:layout_gravity="center"
+            android:background="#2196F3"
+            />
+        
+        <TextView
+            android:layout_width="180dp"
+            android:gravity="center"
+            android:layout_height="100dp"
+            android:text="今日04/21预定"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="300dp"
+            android:id="@+id/jintian"/>
+        <TextView
+            android:layout_width="180dp"
+            android:gravity="center"
+            android:layout_height="100dp"
+            android:text="今日04/21预定"
+            android:textColor="#818080"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/mingtian"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="更多日期"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/riqi"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/youjiantou"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:text="产品名称"
+            android:layout_marginLeft="200dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:text="简介"
+            android:layout_marginLeft="180dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:text="数量"
+            android:layout_marginLeft="230dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:text="价格"
+            android:layout_marginLeft="120dp"/>
+
+
+
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:id="@+id/lv_gwc"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总金额："
+            android:textColor="@color/black"
+            android:layout_marginLeft="50dp"
+            android:textSize="40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/zong"
+            android:textColor="@color/black"
+            android:textSize="40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="元"
+            android:textColor="@color/black"
+
+            android:textSize="40dp"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:text="立即支付"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:background="@color/wn"
+            android:layout_marginLeft="400dp"
+            android:id="@+id/ljzf"/>
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:text="清空购物车"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/qkgwc"/>
+
+
+
+    </LinearLayout>
+
+
+   
+
+</LinearLayout>

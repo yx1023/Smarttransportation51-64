@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#2196F3"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/left_hei"
+            android:id="@+id/fanhui"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:text="1号站台"
+            android:layout_gravity="center"
+            android:layout_marginLeft="500dp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:text="距1号站台的距离："
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="200dp"/>
+
+    <TextView
+        android:id="@+id/car1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="20dp"
+        android:text="距一号站台的距离"
+        android:textColor="@color/black"
+        android:textSize="35dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:text="距一号站台的距离"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/car2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:text="候车环境："
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="200dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:text="道路环境："
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:text="距一号站台的距离"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/hj1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:text="距一号站台的距离"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/hj2"/>
+
+</LinearLayout>

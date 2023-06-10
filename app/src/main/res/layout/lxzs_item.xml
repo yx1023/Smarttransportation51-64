@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:src="@drawable/gugong1"
+        android:id="@+id/iv_"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="故宫"
+            android:textSize="40dp"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/black"
+            android:id="@+id/dz"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="购买"
+            android:textSize="40dp"
+            android:padding="10dp"
+            android:background="@drawable/gongkuang"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/z3"
+            android:id="@+id/gm"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="票价"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="50dp"
+            android:id="@+id/pj"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

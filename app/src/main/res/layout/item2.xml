@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/HV"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:id="@+id/LL"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/touxiang_2"
+                android:id="@+id/tx"/>
+            <LinearLayout
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="用户名：XXX"
+                    android:textSize="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/username"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="姓名：XXX"
+                    android:textSize="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/name"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="电话：13854546523"
+                    android:textSize="40dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/tel"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:paddingRight="40dp"
+                android:paddingLeft="40dp"
+                android:text="一般管理员"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:layout_marginLeft="250dp"
+                android:background="#FFEB3B"
+                android:id="@+id/status"/>
+
+
+            <FrameLayout
+                android:layout_width="100dp"
+                android:layout_height="240dp"
+
+                android:layout_marginBottom="4dp"
+                android:background="#4CAF50">
+
+                <TextView
+                    android:id="@+id/shoucang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="收藏"
+                    android:textSize="40dp"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="100dp"
+                android:layout_height="240dp"
+                android:layout_marginBottom="4dp"
+                android:background="#f33213">
+
+                <TextView
+                    android:id="@+id/shanchu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="删除"
+                    android:textSize="40dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

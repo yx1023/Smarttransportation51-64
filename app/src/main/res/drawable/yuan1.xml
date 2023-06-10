@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:anroid="http://schemas.android.com/apk/res/android"
+       anroid:shape="oval">
+    <stroke anroid:width="2dp" anroid:color="#3F51B5"/>
+
+</shape>

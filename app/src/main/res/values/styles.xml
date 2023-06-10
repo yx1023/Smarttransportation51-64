@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+
+    <style name="MyTextView">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#000</item>
+
+    </style>
+
+    <style name="MyTextView2">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000</item>
+
+    </style>
+    <style name="rating_bar_style">
+        <item name="android:minHeight">50dp</item>
+        <item name="android:maxHeight">50dp</item>
+        <item name="android:progressDrawable">@drawable/rating</item>
+    </style>
+
+</resources>

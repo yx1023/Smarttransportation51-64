@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="1"
+                android:textSize="30dp"
+                android:background="@drawable/yuan1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#3F51B5"
+                android:layout_marginLeft="50dp"
+                android:id="@+id/number"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:text="航空总部"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/site"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="20dp"
+            android:background="#3F51B5"
+            android:layout_marginLeft="70dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

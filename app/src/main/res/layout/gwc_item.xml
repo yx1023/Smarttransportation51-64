@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/z3"
+            android:textSize="50dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/shanchu"
+            android:text="删除"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="90dp"
+
+                android:src="@drawable/gugong1"
+
+                android:id="@+id/iv_gg"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:text="故宫"
+                android:id="@+id/name"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="30dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_gravity="center"
+            android:id="@+id/jj"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="——"
+            android:textSize="40dp"
+            android:layout_marginLeft="100dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/bg"
+            android:id="@+id/jian"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="1"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/bg"
+            android:id="@+id/shu"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="+"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/bg"
+            android:id="@+id/jia"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="60元"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/jiage"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
